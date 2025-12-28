@@ -1,16 +1,10 @@
 
 import React, { useState, useEffect } from 'react';
-import { motion, useScroll, useSpring, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 
 const Navbar: React.FC = () => {
-  const { scrollYProgress } = useScroll();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const scaleX = useSpring(scrollYProgress, {
-    stiffness: 100,
-    damping: 30,
-    restDelta: 0.001
-  });
 
   // Lock body scroll when menu is open
   useEffect(() => {
@@ -148,10 +142,6 @@ const Navbar: React.FC = () => {
         )}
       </AnimatePresence>
 
-      <motion.div
-        className="absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-cyan-500 to-violet-500 origin-left"
-        style={{ scaleX }}
-      />
     </nav>
   );
 };
