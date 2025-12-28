@@ -106,7 +106,7 @@ const Contact: React.FC = () => {
                     <input
                       type="text"
                       name="name"
-                      placeholder="John Doe"
+                      placeholder="Krish Chaudhary"
                       required
                       className={inputClasses}
                     />
@@ -116,7 +116,7 @@ const Contact: React.FC = () => {
                     <input
                       type="email"
                       name="email"
-                      placeholder="john@example.com"
+                      placeholder="krishchaudhary144@gmail.com"
                       required
                       className={inputClasses}
                     />
