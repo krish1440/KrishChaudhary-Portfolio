@@ -27,7 +27,7 @@ const About: React.FC = () => {
               <span className="text-gradient">LEARNER.</span>
             </h2>
             <p className="text-gray-400 text-base md:text-lg leading-relaxed mb-6">
-              I am a final-year Computer Science student at Parul University, effectively bridging the gap between theoretical AI concepts and real-world results. My expertise spans the entire AI spectrum—from extracting insights via Data Science to training advanced Machine Learning & Deep Learning models.
+              I am a Computer Science student at Parul University, effectively bridging the gap between theoretical AI concepts and real-world results. My expertise spans the entire AI spectrum—from extracting insights via Data Science to training advanced Machine Learning & Deep Learning models.
             </p>
             <p className="text-gray-400 text-base md:text-lg leading-relaxed mb-10">
               Beyond building models, I specialize in MLOps and end-to-end pipelines, ensuring that intelligent systems are not just accurate but also scalable, reliable, and ready for production deployment.

@@ -125,7 +125,7 @@ const Projects: React.FC = () => {
             </div>
 
             <h3 className="text-2xl md:text-4xl font-black mb-4 group-hover:text-cyan-400 transition-colors leading-tight uppercase tracking-tight">{project.title}</h3>
-            <p className="text-sm md:text-base text-gray-400 mb-6 leading-relaxed line-clamp-2 md:line-clamp-3 font-light">{project.description}</p>
+            <p className="text-sm md:text-base text-gray-400 mb-6 leading-relaxed font-light">{project.description}</p>
 
             <div className="mb-6">
               <h4 className="text-[10px] font-black uppercase tracking-[0.3em] text-cyan-500/60 mb-4">Core Tech</h4>
