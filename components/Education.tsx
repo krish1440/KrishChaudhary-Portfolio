@@ -20,13 +20,13 @@ const Education: React.FC = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="glass p-6 md:p-8 rounded-3xl flex flex-col sm:flex-row gap-4 md:gap-6 items-start sm:items-center border-white/5 hover:border-cyan-500/20 transition-all"
+              className="glass p-6 md:p-8 rounded-3xl flex flex-col sm:flex-row gap-4 md:gap-6 items-start sm:items-center border-white/5 hover:border-cyan-500/40 transition-all duration-500 group"
             >
               <div className="w-12 h-12 md:w-16 md:h-16 rounded-2xl bg-cyan-500/10 flex items-center justify-center text-cyan-400 flex-shrink-0">
                 <GraduationCap className="w-6 h-6 md:w-8 md:h-8" />
               </div>
               <div>
-                <h3 className="text-lg md:text-xl font-bold leading-tight">{edu.degree}</h3>
+                <h3 className="text-lg md:text-xl font-bold leading-tight group-hover:text-cyan-400 transition-colors duration-500">{edu.degree}</h3>
                 <p className="text-sm md:text-base text-gray-400 font-medium mt-1">{edu.institution}</p>
                 {edu.location && <p className="text-xs md:text-sm text-gray-500 mt-1 flex items-center gap-1">📍 {edu.location}</p>}
                 <p className="text-[10px] md:text-xs text-cyan-400/60 font-black uppercase tracking-widest mt-2">{edu.period}</p>

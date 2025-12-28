@@ -37,7 +37,7 @@ const SkillCard = ({ title, skills, index }: { title: string, skills: string[], 
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, margin: "-50px" }}
-      className="glass p-5 md:p-8 rounded-[30px] md:rounded-[40px] group border-white/5 hover:border-cyan-500/30 transition-all duration-500 bg-gradient-to-br from-white/[0.02] to-transparent"
+      className="glass p-5 md:p-8 rounded-[30px] md:rounded-[40px] group border-white/5 hover:border-cyan-500/40 transition-all duration-500 bg-gradient-to-br from-white/[0.02] to-transparent"
     >
       <div className="flex items-center gap-3 mb-6">
         <div className="w-1.5 h-6 bg-gradient-to-b from-cyan-500 to-violet-500 rounded-full" />

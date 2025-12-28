@@ -52,14 +52,14 @@ const Interests: React.FC = () => {
             >
               <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-violet-500/10 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
-              <div className="relative glass p-6 md:p-8 rounded-3xl flex flex-col items-center justify-center border-white/5 group-hover:border-cyan-500/40 transition-all duration-300 h-full overflow-hidden text-center min-h-[220px]">
+              <div className="relative glass p-6 md:p-8 rounded-3xl flex flex-col items-center justify-center border-white/5 group-hover:border-cyan-500/40 transition-all duration-500 h-full overflow-hidden text-center min-h-[220px]">
                 <div className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-transparent via-cyan-500/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
 
-                <span className="text-4xl md:text-5xl mb-4 md:mb-4 block transition-transform duration-500 group-hover:scale-110 group-hover:rotate-6">
+                <span className="text-4xl md:text-5xl mb-4 md:mb-4 block transition-transform duration-500 group-hover:scale-110 group-hover:rotate-6 filter group-hover:drop-shadow-[0_0_10px_rgba(6,182,212,0.5)]">
                   {interest.emoji}
                 </span>
 
-                <span className="text-sm md:text-base font-black text-white mb-2 uppercase tracking-tight leading-tight">
+                <span className="text-sm md:text-base font-black text-white mb-2 uppercase tracking-tight leading-tight group-hover:text-cyan-400 transition-colors duration-300">
                   {interest.name}
                 </span>
 

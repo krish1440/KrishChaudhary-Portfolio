@@ -78,7 +78,7 @@ const Certifications: React.FC = () => {
             <motion.div
               key={i}
               whileHover={{ y: -10, scale: 1.02 }}
-              className="flex-shrink-0 w-[280px] md:w-[420px] glass p-10 md:p-12 rounded-[2.5rem] md:rounded-[3rem] border-white/5 flex flex-col gap-8 md:gap-10 group hover:border-cyan-500/30 transition-all duration-500 bg-gradient-to-br from-white/[0.03] to-transparent relative overflow-hidden"
+              className="flex-shrink-0 w-[280px] md:w-[420px] glass p-10 md:p-12 rounded-[2.5rem] md:rounded-[3rem] border-white/5 flex flex-col gap-8 md:gap-10 group hover:border-cyan-500/40 transition-all duration-500 bg-gradient-to-br from-white/[0.03] to-transparent relative overflow-hidden"
             >
               <div className="absolute top-0 right-0 w-40 h-40 bg-violet-500/5 blur-[60px] -z-10 group-hover:bg-cyan-500/10 transition-colors" />
 

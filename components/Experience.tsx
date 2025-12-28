@@ -26,10 +26,10 @@ const Experience: React.FC = () => {
                 <div className="w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-cyan-500" />
               </div>
 
-              <div className="glass p-6 md:p-8 rounded-[24px] md:rounded-[30px] border-white/5 hover:border-white/10 transition-all">
+              <div className="glass p-6 md:p-8 rounded-[24px] md:rounded-[30px] border-white/5 hover:border-cyan-500/40 transition-all duration-500 group">
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4 md:mb-6 gap-2">
                   <div>
-                    <h3 className="text-xl md:text-2xl font-black text-white">{exp.role}</h3>
+                    <h3 className="text-xl md:text-2xl font-black text-white group-hover:text-cyan-400 transition-colors duration-500">{exp.role}</h3>
                     <p className="text-cyan-400 font-bold text-sm md:text-base">{exp.company}</p>
                   </div>
                   <span className="px-3 py-1 rounded-full bg-white/5 text-[10px] md:text-xs text-gray-400 border border-white/5 h-fit whitespace-nowrap self-start">
