@@ -182,7 +182,7 @@ const Contact: React.FC = () => {
 
           <div className="flex gap-4">
             {[
-              { name: "Resume", icon: <FileText className="w-4 h-4" />, link: "https://res.cloudinary.com/dyhe9rbjz/image/upload/v1752746706/hunwrs6elzgeg0kmu1hy.pdf" },
+              { name: "Resume", icon: <FileText className="w-4 h-4" />, link: "https://drive.google.com/file/d/15SkGEHKlvuoJSRjqk211Bw_E7RWnvvp2/view?usp=sharing" },
               { name: "LinkedIn", icon: <Linkedin className="w-4 h-4" />, link: "https://www.linkedin.com/in/krish-chaudhary-krc8252" },
               { name: "GitHub", icon: <Github className="w-4 h-4" />, link: "https://github.com/krish1440/" }
             ].map((btn, i) => (
