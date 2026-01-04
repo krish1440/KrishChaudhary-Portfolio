@@ -128,7 +128,7 @@ const Hero: React.FC = () => {
               View Projects <ArrowRight className="w-4 h-4 md:w-5 md:h-5 group-hover:translate-x-1 transition-transform" />
             </a>
             <a
-              href="https://res.cloudinary.com/dyhe9rbjz/image/upload/v1752746706/hunwrs6elzgeg0kmu1hy.pdf"
+              href="https://drive.google.com/file/d/15SkGEHKlvuoJSRjqk211Bw_E7RWnvvp2/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 px-6 py-3.5 md:px-8 md:py-4 glass text-white rounded-full font-bold hover:bg-white/10 transition-colors border border-white/10 text-sm md:text-base"
