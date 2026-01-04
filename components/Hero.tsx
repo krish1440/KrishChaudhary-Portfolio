@@ -17,14 +17,6 @@ const Hero: React.FC = () => {
 
       <div className="container mx-auto px-6 md:px-16 lg:px-24 grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-24 items-center relative z-10 w-full">
 
-        {/* Profile Image - Order 1 on Mobile, Order 2 on Desktop (if preferred, or keep current) */}
-        {/* Keeping current: Image is Order 1 on mobile/desktop based on code, usually text is first. 
-            User code had Order 1 for Image. Let's inspect. 
-            Existing: className="relative order-1 md:order-1..."
-            Let's make Text Order 1 on Desktop, Image Order 2? Or Stack Image on Top?
-            Standard portfolio: Image Top on Mobile, Right on Desktop.
-            Let's keep Image Order 1 (Top) as per current code, but fix sizing.
-        */}
         <motion.div
           className="relative order-1 flex justify-center items-center"
           style={{ y: y1, opacity }}
